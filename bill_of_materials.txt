@@ -1,0 +1,36 @@
+Orb Of Approximate Data - Bill of Materials
+
+AsyncLabs BlackWidow - Arduino + Wifi
+Price:  $75.00
+Source: http://www.asynclabs.com
+
+Red super-bright LED
+Price:  $1.50
+Source: http://www.sparkfun.com/commerce/product_info.php?products_id=8862
+
+Green super-bright LED
+Price:  $1.50
+Source: http://www.sparkfun.com/commerce/product_info.php?products_id=8861
+
+Blue super-bright LED
+Price:  $1.50
+Source: http://www.sparkfun.com/commerce/product_info.php?products_id=8860
+
+3x 100 Ohm resistors
+Source: Any electronics vendor.
+
+One of the following, or anything else suitable, on which to mount the LEDs
+
+(a) Adafruit Arduino Proto Shield
+Price:  $12.50
+Source: http://www.adafruit.com/index.php?main_page=product_info&cPath=17_21&products_id=51
+
+(b) Adafruit Arduino DIY shield
+Price:  $6.00
+Source: http://www.adafruit.com/index.php?main_page=product_info&cPath=17_21&products_id=187
+
+(c) Adafruit Half-size breakboard
+Price:  $5.00
+Source: http://www.adafruit.com/index.php?main_page=product_info&cPath=18&products_id=64
+
+
