@@ -1,0 +1,48 @@
+Arduino code and data feed parsers for the Orbs of Approximate Data.  All
+that is needed to build the Orbs is the orb_of_approximate_data Arduino code.
+You can point that code at the data sources hosted on 2552.com/orb, but please
+be reasonable and don't update more frequently than every 5 minutes.  The world
+doesn't change that fast anyway.
+
+If you'd like to customize your own data sources, look at the code in 
+./data_sources for examples.  You'd deploy these on your own server and
+then configure the Orb code to point at them.  You can either do what I've 
+done with the DJI code and update the served static file periodically via 
+cron, or you can make them act like CGI scripts, fetching the data for 
+each request from the Orb.
+
+Get in touch if you have some specific data source that you'd like to see
+and you don't have access to a server. 
+
+FILES:
+
+orb_of_approximate_data.pde: The Arduino code for the Orbs. 
+
+data_sources/*: The perl scripts that generate the data feeds for the Orb.
+
+
+
+
+Copyright (c) 2010 Vin Marshall (vlm@2552.com, www.2552.com)
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
