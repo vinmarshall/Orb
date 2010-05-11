@@ -23,8 +23,10 @@ FILES:
 
 orb_of_approximate_data.pde: The Arduino code for the Orbs. 
 
-data_sources/*: The perl scripts that generate the data feeds for the Orb.
+data_sources/: The perl scripts that generate the data feeds for the Orb.
 
+schematic/: Schematic files for the Orb.  Both the Eagle schematic and the
+PDF printout of the wiring for the Orb are included.
 
 
 
