@@ -1,8 +1,13 @@
-Arduino code and data feed parsers for the Orbs of Approximate Data.  All
-that is needed to build the Orbs is the orb_of_approximate_data Arduino code.
-You can point that code at the data sources hosted on 2552.com/orb, but please
-be reasonable and don't update more frequently than every 5 minutes.  The world
-doesn't change that fast anyway.
+This project contains the Arduino code and data feed parsers for the 
+Orbs of Approximate Data.  
+
+All that is needed to build the Orbs is the orb_of_approximate_data 
+Arduino code.  You can point that code at the data sources hosted 
+on 2552.com/orb, but please be reasonable and don't update more 
+frequently than every 5 minutes.  The world doesn't change that fast anyway.
+
+There will be change to the available data sources. Keep an eye on this
+project's wiki for updates.
 
 If you'd like to customize your own data sources, look at the code in 
 ./data_sources for examples.  You'd deploy these on your own server and
