@@ -32,6 +32,8 @@ bill_of_materials.txt: The things you need to buy.  Most of the components
 in the project are flexible.  The only really essential thing is the 
 AsyncLabs BlackWidow Arduino + wifi board.  Feel free to improvise on the rest.
 
+build_instructions.txt: A step by step guide to making your own Orb.
+
 
 
 Copyright (c) 2010 Vin Marshall (vlm@2552.com, www.2552.com)

@@ -1,0 +1,48 @@
+Orb Of Approximate Data - Build Instructions
+
+1. Acquire a suitable translucent housing like the Ikea Grono lamps and 
+   source all of the required electronics (see the Bill of Materials).
+
+2. Follow the instructions on this page to install the WiShield libraries
+   http://asynclabs.com/wiki/index.php?title=AsyncLabsWiki
+
+   For the Arduino software version 0018 on OS X that I'm using, this meant
+   placing the downloaded files in the the libraries/WiShield directory
+   under the "Sketchbook location" directory.  You can check or edit your
+   Sketchbook directory in the Arduino software preferences.
+
+   In this directory, edit the apps-conf.h file.  Comment out all of the 
+   #defines at the top of the file except for #define APP_WISERVER
+
+   If you get an error message when you try to compile the code about 
+   not being able to find WiServer.h, that means this step has not been 
+   completed correctly.
+
+3. Download the Orb Arduino code, modify the configuration settings for
+   your local wireless network and anything else you'd like to customize,
+   and program the BlackWidow Arduino board.  There are comments in the code
+   about the various configuration and customization options.
+
+4. Wire the external circuitry.  Connect the 3 resistors to the PWM output
+   pins 3, 5, and 6, and connect the Anode (the long leg) of each LED to
+   one of the resistors.  To use the code without modification, connect the 
+   red LED to the resistor from pin 3, the blue to pin 5, and the green
+   to pin 6.  Connect the Cathodes of each LED (the short leg) to ground.  
+   Be sure to consult the schematic.
+
+5. Power up the Arduino while it is connected to your computer via USB.  
+   Open the serial port monitor in the Arduino software and watch the output
+   to confirm that you are able to connect to the wifi network.  You'll 
+   also see the blue LED on the BlackWidow board light up.  Double check
+   your wifi network configuration options if the board cannot connect to 
+   the network.  NOTE:  This can take 30+ seconds to connect if you're using
+   secured access on the network.
+
+6. Place the circuitry inside your lamp and route the power cable.  
+
+7. Plug it in and confirm that everything works.
+
+8. Think about contributing your own data source to be hosted on 2552.com 
+   or consider hosting some data sources yourself.
+
+   
