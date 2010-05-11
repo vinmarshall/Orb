@@ -74,13 +74,13 @@ unsigned char subnet_mask[] = {255,255,255,0};
 
 // Set the SSID, or broadcast name, or your wireless router or access point
 // here.  Your computer reports this name when it connects to the wifi.
-const prog_char ssid[] PROGMEM = {"gonzo"};		// max 32 bytes
+const prog_char ssid[] PROGMEM = {"yourssid"};		// max 32 bytes
 
 // Select the type of security your wireless network uses.
 unsigned char security_type = 2;	// 0 - open; 1 - WEP; 2 - WPA; 3 - WPA2
 
 // If you're using WPA or WPA2, set the passphrase here
-const prog_char security_passphrase[] PROGMEM = {"merpmerp"};// max 64 characters
+const prog_char security_passphrase[] PROGMEM = {"yourpass"};// max 64 characters
 
 // If you're using WEP, set the key here.
 // The following are some sample WEP 128-bit keys
