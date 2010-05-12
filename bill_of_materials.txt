@@ -7,7 +7,7 @@ or:     http://www.ikea.com/us/en/catalog/products/00095588
 
 AsyncLabs BlackWidow - Arduino + Wifi
 Price:  $75.00
-Source: http://www.asynclabs.com (or several online retailers)
+Source: http://asynclabs.com/distributors 
 
 Power supply
 Price:  $9.00
