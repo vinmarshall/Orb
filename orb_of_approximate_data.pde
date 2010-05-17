@@ -129,7 +129,7 @@ char *data_source = DS_DJI;
 // Update Minutes controls how often in minutes the Orb calls 
 // the mothershipfor more data.  Be reasonable and keep this 
 // around 5 minutes or more.
-unsigned long update_minutes = 1;
+unsigned long update_minutes = 5;
 
 
 //
