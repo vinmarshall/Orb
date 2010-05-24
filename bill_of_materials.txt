@@ -9,6 +9,10 @@ AsyncLabs BlackWidow - Arduino + Wifi
 Price:  $75.00
 Source: http://asynclabs.com/distributors 
 
+Alternate for the Above: Arduino Duemilanove w/ Atmega 328 and a WiShield.
+Source for the Arduino: Adafruit, Sparkfun, etc...
+Source for the WiShield: Asynclabs or any of their distributers http://asynclabs.com/distributors
+
 Power supply
 Price:  $9.00
 Source: http://www.adafruit.com/index.php?main_page=product_info&cPath=18&products_id=63
