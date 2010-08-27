@@ -34,6 +34,8 @@ AsyncLabs BlackWidow Arduino + wifi board.  Feel free to improvise on the rest.
 
 build_instructions.txt: A step by step guide to making your own Orb.
 
+prototype_board*: Snapshots of my prototyped setup for this project.  Very simple.
+
 
 
 Copyright (c) 2010 Vin Marshall (vlm@2552.com, www.2552.com)
